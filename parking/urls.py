@@ -23,5 +23,6 @@ path('printvehicles/', views.printvehicles, name='printvehicles'),
 path('searchingveh/<vnumber>', views.searchingveh, name='searchingveh'),
 path('userentry/', views.userentry, name='userentry'),
 path('userlogin/', views.userlogin, name='userlogin'),
+path('aa/', views.aa, name='aa'),
 
 ]

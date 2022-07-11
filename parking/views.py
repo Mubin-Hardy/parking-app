@@ -356,3 +356,6 @@ def printvehicles(request):
 def searchingveh(request,vnumber):
     obj = Vehicleentry.objects.get(vnumber=vnumber)
     return render(request, 'searchingveh.html', {'obj': obj})
+
+def aa(request):
+    return render(request,'aa.html')

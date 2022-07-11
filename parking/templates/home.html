@@ -1,98 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        html,
-body {
-	height: 100%;
-}
-body {
-	margin: 0;
-	background-image: url("https://s1.1zoom.me/big0/660/Shelby_Super_Cars_White_background_White_559662_1280x853.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-size: 100% 100%;
-	font-family: sans-serif;
-	font-weight: 100;
-
-}
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
-}
-.container {
-	position: absolute;
-	top: 100%;
-	left: 100%;
-	transform: translate(-50%, -50%);
-}
-.text h1{
- font-size:32px;
- color:#fff;
- text-align:center;
- font-weight:bold;
- margin-top:120px;
- padding-bottom:30px;
- font-family:cursive;
- font-size:70px;
-}
-/* Navigation Bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #778899;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #1E90FF;
-  color: white;
-}
-
-.topright {
-  position: absolute;
-  top: 1px;
-  right: 10px;
-  font-size: 1px;
-}
-    </style>
 <title>W3.CSS Template</title>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-<body class="w3-content" style="max-width:1300px" background="green">
+<body>
 
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-
-  <div class="w3-half w3-linear-gradient(45deg, #49a09d 0%, #5f2c82 100%); w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>VALET BOOKING SYSTEM</h1>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/index/" class="w3-bar-item w3-button w3-padding-large">SECURITY LOGIN</a>
+    <a href="/signup/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SECURITY SIGNUP</a>
+    <a href="/userlogin/"  class="w3-bar-item w3-button w3-padding-large w3-hide-small">CUSTOMER LOGIN</a>
+    <a href="/contactus/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      <a href="complaint" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPLIANT</a>
+      </div>
     </div>
-    <div class="w3-padding-64">
-      <a href="/index/" style="margin-top:210px;" class="btn btn-white btn-animation-1" w3 padding 16> SECURITY LOGIN</a> <a href="/signup/" style="margin-left:2em;" class="btn btn-white btn-animation-1"w3 padding 16>SECURITY SIGNUP</a> <br><br><br>
-          <a href="/userlogin/" style="margin-top:210px;" class="btn btn-white btn-animation-1" w3 padding 16>CUSTOMER LOGIN</a><br><br><br>
-          <a href="/contactus/" class="btn btn-white btn-animation-1"w3 padding 16>Contact us</a>   <a href="complaint" style="margin-left:2em;" class="btn btn-white btn-animation-1"w3 padding 16>Complaints</a> <br><br><br>
-    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
-
 </div>
 
-<!-- Second Grid: Work & Resume -->
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<img src="https://i.pinimg.com/originals/cb/8f/a5/cb8fa50bbf6984667cba9f671b98fe2b.jpg" alt="Girl in a jacket" width="100%" height="100%">
+
 
 </body>
 </html>

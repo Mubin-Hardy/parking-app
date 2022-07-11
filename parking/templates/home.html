@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        html,
+body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background-image: url("https://thumbs.dreamstime.com/b/empty-parking-lot-24671764.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: 100% 100%;
+	font-family: sans-serif;
+	font-weight: 100;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+.container {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	transform: translate(-50%, -50%);
+}
+.text h1{
+ font-size:32px;
+ color:#fff;
+ text-align:center;
+ font-weight:bold;
+ margin-top:120px;
+ padding-bottom:30px;
+ font-family:cursive;
+ font-size:70px;
+}
+/* Navigation Bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #778899;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1E90FF;
+  color: white;
+}
+
+.topright {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  font-size: 1px;
+}
+    </style>
 <title>W3.CSS Template</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body class="w3-content" style="max-width:1300px" background="red">
+<body class="w3-content" style="max-width:1300px" background="green">
 
 <!-- First Grid: Logo & About -->
 <div class="w3-row">
 
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+  <div class="w3-half w3-linear-gradient(45deg, #49a09d 0%, #5f2c82 100%); w3-container w3-center" style="height:700px">
     <div class="w3-padding-64">
       <h1>VALET BOOKING SYSTEM</h1>
     </div>
@@ -21,14 +89,7 @@
           <a href="/contactus/" class="btn btn-white btn-animation-1"w3 padding 16>Contact us</a>   <a href="complaint" style="margin-left:2em;" class="btn btn-white btn-animation-1"w3 padding 16>Complaints</a> <br><br><br>
     </div>
   </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>BOOKING SLOTS</h1>
 
-
-
-    </div>
-  </div>
 </div>
 
 <!-- Second Grid: Work & Resume -->

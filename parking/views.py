@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from .models import Registration
 from .models import Contact
-from .models import Complaints , Vehicleentry , Vehicleexit
+from .models import Complaints , Vehicleentry , Vehicleexit,RegUser
 from django.contrib import messages
 
 f = 0
@@ -194,7 +194,28 @@ def userentry(request):
         venter.save()
 
     return render(request, 'vehicleentry_user.html',context)
+def userlogin(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = RegUser()
+        if username =='admin' and  password =='admin123' :
+            return render(request, 'adminpage.html')
 
+        if RegUser.objects.filter(username = username,password=password).all():
+            user = RegUser.objects.filter(username = username,password=password).all()
+            n = on()
+            context= {
+                'f':n,
+            }
+            return render(request,'vehicleentry_user.html',context)
+        else:
+            messages.info(request,"Invalid username or password")
+            return redirect('/userlogin/')
+        
+       
+
+    return render(request, 'userlogin.html')
     #params = {'name': 'parking', 'place': 'mars'}
     #return render(request,'vehicleentry.html', params)
 def aboutus(request):

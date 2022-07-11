@@ -6,9 +6,10 @@ from .models import Contact
 from .models import Complaints
 from .models import Vehicleentry
 from .models import Vehicleexit
-
+from .models import RegUser
 admin.site.register(Registration)
 admin.site.register(Contact)
 admin.site.register(Complaints)
 admin.site.register(Vehicleentry)
 admin.site.register(Vehicleexit)
+admin.site.register(RegUser)

@@ -39,7 +39,11 @@ class Registration(models.Model):
 
     def __str__(self):
         return self.fname
-
+class RegUser(models.Model):
+    username=models.CharField(max_length=20)
+    password=models.CharField(max_length=20,default="")
+    def __str__(self):
+        return self.username
 class Contact(models.Model):
     name = models.CharField(max_length=20)
     mail = models.CharField(max_length=200,default="null")

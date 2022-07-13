@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94025f6e-11a1-4e46-a82f-2690b2b79fd2" name="Default Changelist" comment="ALAN">
-      <change afterPath="$PROJECT_DIR$/parking/templates/f705f494-f000-4738-893f-118afa99f9da.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/templates/userlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/parking/templates/userlogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/parking/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parking/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/parking/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657548816262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ALAN">
+      <created>1657561057381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657561057381</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">

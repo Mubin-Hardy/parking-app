@@ -253,9 +253,10 @@ def maps(request):
     params = {'name': 'parking', 'place': 'mars'}
     return render(request,'maps.html', params)
 
-t2=dt.strftime("%H:%M:%S")
+#t2=dt.strftime("%H:%M:%S")
 
 def vehicleexit(request):
+    t2=dt.strftime("%H:%M:%S")
     n = 0
     z = check()
     if z == 1:
